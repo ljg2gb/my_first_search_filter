@@ -20,7 +20,7 @@ function showDog(dog) {
   name.textContent = dog.name; 
   
   const age = document.createElement("p");
-  age.textContent = dog.age;
+  age.textContent = `${dog.age} years old`;
 
   dogCard.append(name, age);
   dogsSection.append(dogCard);
