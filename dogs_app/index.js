@@ -27,5 +27,5 @@ function showDog(dog) {
 }
 
 function parseJSON(response) {
-  return response.json()
+  return response.json();
 }
