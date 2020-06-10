@@ -10,7 +10,7 @@ fetch(dogsURL)
   .then(displayDogs);
 
 function displayDogs(dogs) {
-  dogs.forEach(showDog)
+  dogs.forEach(showDog);
 }
 
 function showDog(dog) {
